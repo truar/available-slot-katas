@@ -1,0 +1,12 @@
+{
+  "name": "available-slot-katas",
+  "packageManager": "yarn@4.9.2",
+  "scripts": {
+    "build": "tsc",
+    "dev": "yarn build && node dist/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
+}
