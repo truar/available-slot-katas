@@ -90,7 +90,7 @@ function findCommonAvailableSlots(durationInMinutes: number, usersAvailabilities
     return commonSlots.filter(slot => slot.coversTheDuration(durationInMinutes))
 }
 
-const commonSlots = findCommonAvailableSlots(45, [user1Availability, user2Availability, user3Availability])
+const commonSlots = findCommonAvailableSlots(30, [user1Availability, user2Availability, user3Availability])
 if (commonSlots.length === 0) {
     console.log("No common slots found")
 } else {
